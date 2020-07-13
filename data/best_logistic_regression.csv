@@ -1,0 +1,2 @@
+features_matrix,model,optimised_params,train_score,test_score,confusion_matrix,sensitivity,specificity,precision,roc_auc_score,train_f1,test_f1
+all_words,tvec + logistic regression,"{'lr__C': 2.154434690031882, 'lr__penalty': 'l2', 'tvec__max_df': 0.7, 'tvec__max_features': 500, 'tvec__min_df': 6, 'tvec__ngram_range': (1, 1)}",0.9693460490463215,0.936734693877551,"tn: 229, fp: 21, fn: 10, tp: 230",0.9583333333333334,0.916,0.9163346613545816,0.9804833333333334,0.9688581314878894,0.9368635437881874

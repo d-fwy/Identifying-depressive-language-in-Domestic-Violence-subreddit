@@ -1,0 +1,2 @@
+features_matrix,model,optimised_params,train_score,test_score,confusion_matrix,sensitivity,specificity,precision,roc_auc_score,train_f1,test_f1
+all_words,tvec + random forest,"{'rf__max_depth': 50, 'rf__n_estimators': 500, 'tvec__max_df': 0.7, 'tvec__max_features': 500, 'tvec__min_df': 2, 'tvec__ngram_range': (1, 1)}",1.0,0.9183673469387755,"tn: 227, fp: 23, fn: 17, tp: 223",0.9291666666666667,0.908,0.9065040650406504,0.9639583333333333,1.0,0.9176954732510288

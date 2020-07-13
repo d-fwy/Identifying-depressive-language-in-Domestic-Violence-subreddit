@@ -1,0 +1,2 @@
+features_matrix,model,optimised_params,train_score,test_score,confusion_matrix,sensitivity,specificity,precision,roc_auc_score,train_f1,test_f1
+all_words,cvec + multinomial nb,"{'cvec__max_df': 0.7, 'cvec__max_features': 500, 'cvec__min_df': 1, 'cvec__ngram_range': (1, 1)}",0.9373297002724795,0.9204081632653062,"tn: 229, fp: 21, fn: 18, tp: 222",0.925,0.916,0.9135802469135802,0.97195,0.9357541899441341,0.9192546583850932
